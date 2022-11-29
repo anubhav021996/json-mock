@@ -1,0 +1,29 @@
+{
+  "name": "json-mock",
+  "version": "1.0.0",
+  "description": "JSON Mock Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhav021996/json-mock.git"
+  },
+  "author": "Anubhav Varshney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anubhav021996/json-mock/issues"
+  },
+  "homepage": "https://github.com/anubhav021996/json-mock#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
